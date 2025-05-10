@@ -80,8 +80,8 @@ npm run dev
 ```
 
 ## Team Members
-- [Arpit Kumar Prajapati] –  Backend Integration  
+- [Piyush Singh Bhakuni] –  Backend Integration  
 - [Aditya Sharma] – Frontend & UI/UX  
 - [Ankit Kumar] – NLP & Multilingual Support  
-- [Piyush singh bhakuni] – Legal Data Curation  
+- [Arpit Kumar Prajapati] – Legal Data Curation  
  
