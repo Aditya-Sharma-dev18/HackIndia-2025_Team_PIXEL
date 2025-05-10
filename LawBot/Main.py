@@ -1,7 +1,9 @@
 import os
+from dotenv import load_dotenv
 import google.generativeai as genai
 
-genai.configure(api_key='AIzaSyBRqB86LwqmqSONcZgpE8lYdgJUrYroiPY')
+
+genai.configure(api_key=API_KEY)
 
 generation_config = {
   "temperature": 1, "top_p": 0.95,  "top_k": 40,  "max_output_tokens": 1000, "response_mime_type": "text/plain",

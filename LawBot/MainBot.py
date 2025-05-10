@@ -4,11 +4,12 @@ import openai
 import math
 import random
 import tkinter as gui
+from dotenv import load_dotenv
 from PersonalProjects.GreenPicker.MainOpenAIlogic import *
 
 
 
-genai.configure(api_key='AIzaSyBRqB86LwqmqSONcZgpE8lYdgJUrYroiPY')
+genai.configure(api_key=API_KEY2)
 
 generation_config = {
   "temperature": 1,

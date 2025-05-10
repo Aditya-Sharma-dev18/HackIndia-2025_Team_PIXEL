@@ -11,7 +11,7 @@ openai = OpenAI(api_key=api_key)
 
 def GreenPicker(prompt):
     messages = {
-        "role": "user",
+        "role": "user", 
         "content": prompt
     }
     response = openai.chat.completions.create(
